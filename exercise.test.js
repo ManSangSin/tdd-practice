@@ -8,6 +8,8 @@
   - isVisiblyInebriated (Boolean)
 */
 
+function canAdmitToNightClub(person) {}
+
 test("Should return true for person over 18", () => {
   const personOver18 = {
     age: 30,
