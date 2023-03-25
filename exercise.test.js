@@ -9,7 +9,7 @@
 */
 
 function canAdmitToNightClub(person) {
-  return true;
+  return person.age > 18;
 }
 
 test("Should return true for person over 18", () => {
